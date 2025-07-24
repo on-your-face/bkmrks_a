@@ -106,6 +106,9 @@ function initCopyLong() {
             if (t) {
                 const e = {
                     php_myadmin: "127.0.0.1/openserver/phpmyadmin/",
+                    "stop_spooler": 'net stop spooler',
+                    "start_spooler": 'net start spooler',
+                    "clear_spooler": 'del /Q /F "%systemroot%\\System32\\spool\\PRINTERS\\*.*"',
                     "cmd-cd": 'cd /d "C:\\on-your-face\\"',
                     "cmd-start": 'start "" "c:\\OSPanel\\Open Server Panel.exe"',
                     "cmd-OSP-server-START": 'start "" "c:\\OSPanel\\Open Server Panel.exe" /start',

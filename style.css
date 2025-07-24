@@ -162,7 +162,8 @@ a {
     border-radius: 7px;
     background: radial-gradient(circle, rgba(238, 174, 202, 0.192) 0%, rgba(148, 188, 233, 0.178) 100%);
 }
-.hashtags span, a {
+.hashtags span,
+a {
     color: white;
     font-size: 18px;
     font-family: "OpenSans";
@@ -248,16 +249,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 5px;
-}
-.content {
     margin-bottom: 5px;
 }
 .content:last-child {
     margin-bottom: 5px;
 }
 .tag {
+    height: a;
     display: flex;
     justify-content: center;
     align-items: center;
